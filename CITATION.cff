@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite both the manuscript and the archived software release."
+title: "Reproducible pooled INLA-SPDE mapping of Plasmodium falciparum prevalence in Mozambique"
+type: software
+version: 1.1.0
+date-released: 2026-07-04
+authors:
+  - family-names: Muxlhanga
+    given-names: Alfredo Z.
+    email: 224157234@student.uj.ac.za
+  - family-names: Chirove
+    given-names: Faraimunashe
+  - family-names: Pedro
+    given-names: Sansão A.
+  - family-names: Nhacolo
+    given-names: Arsénio
+  - family-names: Amratia
+    given-names: Punam
+repository-code: "https://github.com/amuxlhanga/mozambique-pfpr-inla-2007-2023"
+license: MIT
+keywords:
+  - malaria
+  - Mozambique
+  - Plasmodium falciparum
+  - INLA
+  - SPDE
+  - Bayesian geostatistics

@@ -1,0 +1,37 @@
+Package: Ch2PfPRReproducibility
+Type: Project
+Title: Reproducible Pooled INLA-SPDE PfPR Mapping for Mozambique
+Version: 1.1.0
+Authors@R: c(
+    person(given = "Alfredo Z.", family = "Muxlhanga", role = c("aut", "cre"),
+           email = "224157234@student.uj.ac.za"),
+    person(given = "Faraimunashe", family = "Chirove", role = "aut"),
+    person(given = "Sansao A.", family = "Pedro", role = "aut"),
+    person(given = "Arsenio", family = "Nhacolo", role = "aut"),
+    person(given = "Punam", family = "Amratia", role = "aut")
+  )
+Description: Modular R scripts reproducing the main and supplementary results for
+    the manuscript on pooled national malaria prevalence surveys in Mozambique.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+Imports:
+    INLA,
+    car,
+    dplyr,
+    ggplot2,
+    patchwork,
+    grid,
+    purrr,
+    readr,
+    rlang,
+    scales,
+    sf,
+    sp,
+    stringr,
+    terra,
+    tibble,
+    tidyr
+Suggests:
+    malariaAtlas,
+    renv
