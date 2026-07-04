@@ -12,19 +12,6 @@ The repository does not contain individual identifiers. District-level outputs a
 
 Repository: <https://github.com/amuxlhanga/mozambique-pfpr-inla-2007-2023>
 
-## Version 1.1.0 corrections
-
-This version resolves the inconsistencies identified during the output-to-manuscript audit:
-
-1. **Supplementary Figure S9** is now the six-panel internal calibration figure by survey year. The pooled internal calibration plot is retained only as a diagnostic output.
-2. **District aggregation** uses exact polygon-cell overlap with geodesic cell-area weighting. When a small district has no valid raster support, the nearest valid land prediction cell is used as a documented fallback. The method, distance and source cell coordinates are recorded. The output audit requires complete results for all 161 districts in every year.
-3. **Main Figure 3** is the district mean PfPR map and includes the Malawi context label.
-4. **External MAP comparison figures were removed** from the manuscript output inventory because the exact source rasters were not supplied. The supplementary inventory is now sequential from S1 to S23.
-5. The misleading one-row multivariable comparison table was removed. It is replaced by `Table_S_final_model_selection_evidence.csv`, which documents the univariate screening evidence and selection basis for each of the eight retained covariates.
-6. Missing-covariate handling is explicitly documented in `Table_S_missing_covariate_values.csv`, including missingness, observation-based standardisation and mean imputation.
-7. Manuscript-ready district summaries, extremes and a consolidated key-results table are generated automatically.
-8. Input and output checksum tables use repository-relative paths.
-
 ## Required inputs
 
 Place the following locally acquired files in the indicated paths before running the workflow:
@@ -90,10 +77,6 @@ This regenerates corrected figures, tables, rasters, district results and audits
 3. Area-weighted district mean PfPR by survey year
 4. Spatial hyperparameter posterior densities
 5. Decision maps at PfPR 20% with posterior probability cutoff 0.80
-
-### Supplementary material
-
-Figures S1-S23 are generated automatically. Fixed-effect density panels remain Figure S7 and spatial block cross-validation by fold remains Figure S10, following the supervisor annotations. Figure S9 is the corrected internal calibration figure by year. Figures S17-S22 are the six model lower/mean/upper surface panels, and Figure S23 contains the extended exceedance maps.
 
 ## Important result files
 
