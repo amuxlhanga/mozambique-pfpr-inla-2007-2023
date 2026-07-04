@@ -1,0 +1,65 @@
+covariate_1,covariate_2,correlation
+TSI (lag 3),TSI (lag 3),1
+HSI (lag 2),TSI (lag 3),0.3773568544334666
+LST day (lag 0),TSI (lag 3),-0.4640325979534116
+Aridity index,TSI (lag 3),-0.29023377787185234
+EVI (lag 2),TSI (lag 3),0.3387773824295662
+Distance to water,TSI (lag 3),-0.23235134482003494
+Access to cities (log1p),TSI (lag 3),-0.21232247054932202
+Slope,TSI (lag 3),-0.200722796784351
+TSI (lag 3),HSI (lag 2),0.3773568544334666
+HSI (lag 2),HSI (lag 2),1
+LST day (lag 0),HSI (lag 2),-0.43628907405612194
+Aridity index,HSI (lag 2),-0.05798676862862703
+EVI (lag 2),HSI (lag 2),0.46919817864790614
+Distance to water,HSI (lag 2),-0.14878437236603584
+Access to cities (log1p),HSI (lag 2),-0.1765448724587445
+Slope,HSI (lag 2),-0.05828077958120602
+TSI (lag 3),LST day (lag 0),-0.4640325979534116
+HSI (lag 2),LST day (lag 0),-0.43628907405612194
+LST day (lag 0),LST day (lag 0),1
+Aridity index,LST day (lag 0),0.15834121100919862
+EVI (lag 2),LST day (lag 0),-0.5201024162777664
+Distance to water,LST day (lag 0),0.2314212076841812
+Access to cities (log1p),LST day (lag 0),0.23261021144667224
+Slope,LST day (lag 0),0.02344821401808089
+TSI (lag 3),Aridity index,-0.29023377787185234
+HSI (lag 2),Aridity index,-0.05798676862862703
+LST day (lag 0),Aridity index,0.15834121100919862
+Aridity index,Aridity index,1
+EVI (lag 2),Aridity index,-0.028103983815317053
+Distance to water,Aridity index,0.39255799584308537
+Access to cities (log1p),Aridity index,0.23218935126548854
+Slope,Aridity index,0.39096739610798337
+TSI (lag 3),EVI (lag 2),0.3387773824295662
+HSI (lag 2),EVI (lag 2),0.46919817864790614
+LST day (lag 0),EVI (lag 2),-0.5201024162777664
+Aridity index,EVI (lag 2),-0.028103983815317053
+EVI (lag 2),EVI (lag 2),1
+Distance to water,EVI (lag 2),0.07984411884666469
+Access to cities (log1p),EVI (lag 2),0.2863241542726251
+Slope,EVI (lag 2),0.08437507781040748
+TSI (lag 3),Distance to water,-0.23235134482003494
+HSI (lag 2),Distance to water,-0.14878437236603584
+LST day (lag 0),Distance to water,0.2314212076841812
+Aridity index,Distance to water,0.39255799584308537
+EVI (lag 2),Distance to water,0.07984411884666469
+Distance to water,Distance to water,1
+Access to cities (log1p),Distance to water,0.4648823851644816
+Slope,Distance to water,0.11766190502201523
+TSI (lag 3),Access to cities (log1p),-0.21232247054932202
+HSI (lag 2),Access to cities (log1p),-0.1765448724587445
+LST day (lag 0),Access to cities (log1p),0.23261021144667224
+Aridity index,Access to cities (log1p),0.23218935126548854
+EVI (lag 2),Access to cities (log1p),0.2863241542726251
+Distance to water,Access to cities (log1p),0.4648823851644816
+Access to cities (log1p),Access to cities (log1p),1
+Slope,Access to cities (log1p),0.1761259686135712
+TSI (lag 3),Slope,-0.200722796784351
+HSI (lag 2),Slope,-0.05828077958120602
+LST day (lag 0),Slope,0.02344821401808089
+Aridity index,Slope,0.39096739610798337
+EVI (lag 2),Slope,0.08437507781040748
+Distance to water,Slope,0.11766190502201523
+Access to cities (log1p),Slope,0.1761259686135712
+Slope,Slope,1

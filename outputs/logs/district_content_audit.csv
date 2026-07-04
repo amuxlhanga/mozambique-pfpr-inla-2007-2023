@@ -1,0 +1,7 @@
+year,districts,unique_districts,missing_numeric_values,fallback_districts,invalid_probability_values,invalid_interval_order,invalid_decision_area_totals
+2007,161,161,0,2,0,0,0
+2011,161,161,0,2,0,0,0
+2015,161,161,0,2,0,0,0
+2018,161,161,0,2,0,0,0
+2022,161,161,0,2,0,0,0
+2023,161,161,0,2,0,0,0

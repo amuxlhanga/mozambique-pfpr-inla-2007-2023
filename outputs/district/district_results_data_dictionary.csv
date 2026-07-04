@@ -1,0 +1,20 @@
+column,description
+year,Survey-aligned prediction year.
+Province,Province name from the 161-district boundary file.
+District,District name from the 161-district boundary file.
+district_pfpr_mean,Mean grid-cell posterior PfPR using exact polygon-cell overlap fractions and geodesic cell-area weights; nearest valid land cell used only when the district has no valid raster support.
+mean_cellwise_lower_95,Area-weighted mean of grid-cell posterior 2.5% quantiles; not a district-level credible limit.
+mean_cellwise_upper_95,Area-weighted mean of grid-cell posterior 97.5% quantiles; not a district-level credible limit.
+continuous_valid_raster_area_km2,District raster area with valid values used for continuous-result aggregation; zero indicates nearest-cell fallback.
+continuous_aggregation_method,area_weighted_exact or nearest_valid_cell_fallback.
+continuous_fallback_distance_km,Distance from the district point-on-surface to the nearest valid prediction cell when fallback was required.
+continuous_fallback_cell_longitude,Longitude of the fallback prediction cell.
+continuous_fallback_cell_latitude,Latitude of the fallback prediction cell.
+mean_exceedance_probability,Area-weighted mean probability that grid-cell PfPR exceeds the configured 20% threshold.
+decision_valid_raster_area_km2,District raster area with valid values used for exceedance and decision aggregation; zero indicates nearest-cell fallback.
+area_prop_yes,Proportion of district raster area classified Yes at p*=0.80.
+area_prop_uncertain,Proportion of district raster area classified Uncertain.
+area_prop_no,Proportion of district raster area classified No at p*=0.80.
+decision_aggregation_method,area_weighted_exact or nearest_valid_cell_fallback for decision outputs.
+mean_cell_exceedance_class,Class obtained by applying p*=0.80 to the district mean of grid-cell exceedance probabilities.
+dominant_gridcell_decision,"Most common grid-cell decision class by district raster area; ties are resolved in favour of Yes, then No, then Uncertain."

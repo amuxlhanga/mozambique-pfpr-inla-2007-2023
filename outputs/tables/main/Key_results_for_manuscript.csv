@@ -1,0 +1,89 @@
+section,year,metric,value,source_file
+Observed data,NA,clusters,2066,observed_data_summary.csv
+Observed data,NA,examined,20720,observed_data_summary.csv
+Observed data,NA,positive,6995,observed_data_summary.csv
+Observed data,NA,aggregated_observed_pfpr,0.3375965250965251,observed_data_summary.csv
+Validation: Internal fitted values,NA,r,0.898225828330475,Table_2_validation_comparison.csv
+Validation: Internal fitted values,NA,RMSE,0.14185208611932362,Table_2_validation_comparison.csv
+Validation: Internal fitted values,NA,MAE,0.09640161676512524,Table_2_validation_comparison.csv
+Validation: Internal fitted values,NA,Bias,0.00587866262922938,Table_2_validation_comparison.csv
+Validation: Random 5-fold cross-validation,NA,r,0.6795165493271229,Table_2_validation_comparison.csv
+Validation: Random 5-fold cross-validation,NA,RMSE,0.23298908102421556,Table_2_validation_comparison.csv
+Validation: Random 5-fold cross-validation,NA,MAE,0.1702867743017488,Table_2_validation_comparison.csv
+Validation: Random 5-fold cross-validation,NA,Bias,2.6147683077533293e-4,Table_2_validation_comparison.csv
+Validation: Spatial block 5-fold cross-validation,NA,r,0.5850439138731361,Table_2_validation_comparison.csv
+Validation: Spatial block 5-fold cross-validation,NA,RMSE,0.2582903470587568,Table_2_validation_comparison.csv
+Validation: Spatial block 5-fold cross-validation,NA,MAE,0.20490001177586048,Table_2_validation_comparison.csv
+Validation: Spatial block 5-fold cross-validation,NA,Bias,0.02806792217708095,Table_2_validation_comparison.csv
+Decision mapping,2007,Yes_pct,51.13978003577273,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2007,Uncertain_pct,45.04319366746584,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2007,No_pct,3.8170262967614264,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2007,mean_exceedance_probability,0.7510647437823212,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2011,Yes_pct,28.287095178292805,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2011,Uncertain_pct,60.33793812079004,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2011,No_pct,11.374966700917152,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2011,mean_exceedance_probability,0.5914889251331107,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2015,Yes_pct,23.38166457358146,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2015,Uncertain_pct,63.16931156524718,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2015,No_pct,13.449023861171366,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2015,mean_exceedance_probability,0.5574949092906594,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2018,Yes_pct,24.378734254290823,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2018,Uncertain_pct,63.264451801956085,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2018,No_pct,12.356813943753092,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2018,mean_exceedance_probability,0.5703250313547429,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2022,Yes_pct,6.724511930585683,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2022,Uncertain_pct,53.084446474102826,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2022,No_pct,40.19104159531149,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2022,mean_exceedance_probability,0.31507531757606116,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2023,Yes_pct,4.5477033146858465,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2023,Uncertain_pct,58.68249800205503,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2023,No_pct,36.769798683259125,Table_3_decision_summary_pfpr20_p80.csv
+Decision mapping,2023,mean_exceedance_probability,0.3057019886187633,Table_3_decision_summary_pfpr20_p80.csv
+Exceedance at 20% PfPR,2007,mean_exceedance_probability,0.751064743832783,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2007,proportion_probability_ge_0_5,0.8552726719184077,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2011,mean_exceedance_probability,0.5914889250340002,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2011,proportion_probability_ge_0_5,0.6220649236975302,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2015,mean_exceedance_probability,0.5574949093154233,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2015,proportion_probability_ge_0_5,0.5763595539825703,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2018,mean_exceedance_probability,0.5703250313855541,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2018,proportion_probability_ge_0_5,0.5971001255851125,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2022,mean_exceedance_probability,0.31507531754344914,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2022,proportion_probability_ge_0_5,0.22650987555657037,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2023,mean_exceedance_probability,0.3057019886399128,exceedance_raster_index.csv
+Exceedance at 20% PfPR,2023,proportion_probability_ge_0_5,0.18936712714541237,exceedance_raster_index.csv
+District aggregation,2007,median_district_pfpr,0.4297607559688405,District_summary_by_year.csv
+District aggregation,2007,q1_district_pfpr,0.29306872603594,District_summary_by_year.csv
+District aggregation,2007,q3_district_pfpr,0.5662363884106154,District_summary_by_year.csv
+District aggregation,2007,districts_ge_20pct,142,District_summary_by_year.csv
+District aggregation,2007,districts_ge_20pct_pct,88.19875776397515,District_summary_by_year.csv
+District aggregation,2007,n_nearest_cell_fallback,2,District_summary_by_year.csv
+District aggregation,2011,median_district_pfpr,0.3106063073209988,District_summary_by_year.csv
+District aggregation,2011,q1_district_pfpr,0.19943337534826977,District_summary_by_year.csv
+District aggregation,2011,q3_district_pfpr,0.427861054754578,District_summary_by_year.csv
+District aggregation,2011,districts_ge_20pct,120,District_summary_by_year.csv
+District aggregation,2011,districts_ge_20pct_pct,74.53416149068323,District_summary_by_year.csv
+District aggregation,2011,n_nearest_cell_fallback,2,District_summary_by_year.csv
+District aggregation,2015,median_district_pfpr,0.28871824893614517,District_summary_by_year.csv
+District aggregation,2015,q1_district_pfpr,0.1819973085725665,District_summary_by_year.csv
+District aggregation,2015,q3_district_pfpr,0.3863455594923552,District_summary_by_year.csv
+District aggregation,2015,districts_ge_20pct,114,District_summary_by_year.csv
+District aggregation,2015,districts_ge_20pct_pct,70.80745341614907,District_summary_by_year.csv
+District aggregation,2015,n_nearest_cell_fallback,2,District_summary_by_year.csv
+District aggregation,2018,median_district_pfpr,0.28634541393168567,District_summary_by_year.csv
+District aggregation,2018,q1_district_pfpr,0.17824100492288872,District_summary_by_year.csv
+District aggregation,2018,q3_district_pfpr,0.3952786459425526,District_summary_by_year.csv
+District aggregation,2018,districts_ge_20pct,115,District_summary_by_year.csv
+District aggregation,2018,districts_ge_20pct_pct,71.42857142857143,District_summary_by_year.csv
+District aggregation,2018,n_nearest_cell_fallback,2,District_summary_by_year.csv
+District aggregation,2022,median_district_pfpr,0.1525951474905014,District_summary_by_year.csv
+District aggregation,2022,q1_district_pfpr,0.09124224330713147,District_summary_by_year.csv
+District aggregation,2022,q3_district_pfpr,0.2319231950163063,District_summary_by_year.csv
+District aggregation,2022,districts_ge_20pct,58,District_summary_by_year.csv
+District aggregation,2022,districts_ge_20pct_pct,36.024844720496894,District_summary_by_year.csv
+District aggregation,2022,n_nearest_cell_fallback,2,District_summary_by_year.csv
+District aggregation,2023,median_district_pfpr,0.15221528921153615,District_summary_by_year.csv
+District aggregation,2023,q1_district_pfpr,0.095147043466568,District_summary_by_year.csv
+District aggregation,2023,q3_district_pfpr,0.2213629705145604,District_summary_by_year.csv
+District aggregation,2023,districts_ge_20pct,50,District_summary_by_year.csv
+District aggregation,2023,districts_ge_20pct_pct,31.05590062111801,District_summary_by_year.csv
+District aggregation,2023,n_nearest_cell_fallback,2,District_summary_by_year.csv

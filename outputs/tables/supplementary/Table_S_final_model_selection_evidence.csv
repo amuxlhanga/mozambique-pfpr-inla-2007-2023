@@ -1,0 +1,9 @@
+order,covariate,raw_covariate,thematic_domain,lag_months,univariate_WAIC,univariate_DIC,screening_status,best_supported_lag_within_family,selection_basis
+1,TSI (lag 3),TSI_lag3,Mechanistic suitability index,3,7056.050965166586,6746.186288415775,ok,TRUE,Mechanistically motivated index retained after lag screening
+2,HSI (lag 2),HSI_lag2,Mechanistic suitability index,2,7057.885952331708,6749.3321733831235,ok,TRUE,Mechanistically motivated index retained after lag screening
+3,LST day (lag 0),LST_day_lag0,Thermal,0,7049.401585944703,6742.828007319186,ok,TRUE,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"
+4,Aridity index,Aridity_Index,Atmospheric,NA,7055.257071223357,6750.9885169441895,ok,NA,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"
+5,EVI (lag 2),EVI_lag2,Greenwet,2,7024.220335759888,6728.285522429873,ok,TRUE,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"
+6,Distance to water,DistToWater_m,Hydrology,NA,7074.858897316881,6762.085490466885,ok,NA,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"
+7,Access to cities (log1p),Access_Cities_log1p,Human accessibility,NA,7082.24647109037,6768.65770687734,ok,NA,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"
+8,Slope,Slope_deg,Terrain,NA,7076.9390096813495,6761.7757545370605,ok,NA,"Retained after univariate spatial screening, thematic grouping, correlation/VIF assessment and biological interpretation"

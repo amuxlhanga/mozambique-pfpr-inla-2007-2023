@@ -1,0 +1,12 @@
+source(file.path("config", "config.R"))
+source(file.path("R", "00_helpers.R"))
+source(file.path("R", "01_data.R"))
+source(file.path("R", "02_spatial_model.R"))
+source(file.path("R", "03_validation.R"))
+source(file.path("R", "04_prediction.R"))
+source(file.path("R", "05_plotting.R"))
+
+cfg <- get_config()
+check_packages()
+create_output_dirs(cfg)
+set.seed(cfg$seed)

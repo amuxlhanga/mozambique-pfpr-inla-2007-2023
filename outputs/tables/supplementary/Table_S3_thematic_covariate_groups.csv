@@ -1,0 +1,8 @@
+group,covariates
+thermal,"LST_day, LST_night, LST_delta"
+rainfall,Rain
+atmospheric,"Aridity_Index, PET_mm"
+greenwet,"EVI, TCW, TCB"
+hydrology,"DistToWater_m, TWI"
+terrain,"Elevation_m, Slope_deg"
+human_accessibility,"WorldPop_static, NTL_stable, Access_Health_log1p, Access_Cities_log1p"

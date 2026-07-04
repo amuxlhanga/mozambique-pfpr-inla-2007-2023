@@ -1,0 +1,29 @@
+figure,section,description,relative_path,required,status,bytes
+Figure 1,Main,Observed cluster-level PfPR by survey year,outputs/figures/main/Figure_1_observed_cluster_pfpr_by_year.png,TRUE,created,1728228
+Figure 2,Main,Year-specific posterior mean PfPR surfaces,outputs/figures/main/Figure_2_year_specific_posterior_mean_pfpr.png,TRUE,created,1580662
+Figure 3,Main,Area-weighted district mean PfPR by survey year,outputs/figures/main/Figure_3_district_mean_pfpr_by_year.png,TRUE,created,1127971
+Figure 4,Main,Spatial hyperparameter posterior densities,outputs/figures/main/Figure_4_spatial_hyperparameter_densities.png,TRUE,created,130739
+Figure 5,Main,Decision maps at PfPR 20% and posterior probability 0.80,outputs/figures/main/Figure_5_decision_maps_pfpr20_p80.png,TRUE,created,1185309
+Figure S1,Supplementary,Number of survey clusters by year,outputs/figures/supplementary/Figure_S1_clusters_by_year.png,TRUE,created,30361
+Figure S2,Supplementary,Survey clusters by month and year,outputs/figures/supplementary/Figure_S2_clusters_by_month_and_year.png,TRUE,created,48985
+Figure S3,Supplementary,Spatial distribution of survey clusters,outputs/figures/supplementary/Figure_S3_spatial_distribution_all_clusters.png,TRUE,created,751708
+Figure S4,Supplementary,Distribution of observed cluster-level PfPR,outputs/figures/supplementary/Figure_S4_observed_cluster_pfpr_distribution.png,TRUE,created,36028
+Figure S5,Supplementary,Candidate SPDE meshes,outputs/figures/supplementary/Figure_S5_candidate_spde_meshes.png,TRUE,created,249195
+Figure S6,Supplementary,Correlation matrix of retained covariates,outputs/figures/supplementary/Figure_S6_correlation_matrix_retained_covariates.png,TRUE,created,194038
+Figure S7,Supplementary,Posterior density summaries of fixed effects,outputs/figures/supplementary/Figure_S7_fixed_effect_posterior_densities.png,TRUE,created,287722
+Figure S8,Supplementary,Internal validation by survey year,outputs/figures/supplementary/Figure_S8_internal_validation_by_year.png,TRUE,created,576519
+Figure S9,Supplementary,Internal calibration by survey year using fitted-risk deciles,outputs/figures/supplementary/Figure_S9_internal_calibration_deciles_by_year.png,TRUE,created,281410
+Figure S10,Supplementary,Spatial block cross-validation by fold,outputs/figures/supplementary/Figure_S10_spatial_block_cv_scatter_by_fold.png,TRUE,created,610378
+Figure S11,Supplementary,Spatial block cross-validation by survey year,outputs/figures/supplementary/Figure_S11_spatial_block_cv_scatter_by_year.png,TRUE,created,617348
+Figure S12,Supplementary,Spatial block calibration by year using fixed-width bins,outputs/figures/supplementary/Figure_S12_spatial_block_cv_calibration_fixed_bins_by_year.png,TRUE,created,278929
+Figure S13,Supplementary,Overall spatial block calibration using fixed-width bins,outputs/figures/supplementary/Figure_S13_spatial_block_cv_calibration_fixed_bins_overall.png,TRUE,created,100732
+Figure S14,Supplementary,Spatial block calibration by year using prediction deciles,outputs/figures/supplementary/Figure_S14_spatial_block_cv_calibration_deciles_by_year.png,TRUE,created,247005
+Figure S15,Supplementary,Overall spatial block calibration using prediction deciles,outputs/figures/supplementary/Figure_S15_spatial_block_cv_calibration_deciles_overall.png,TRUE,created,82814
+Figure S16,Supplementary,Posterior mean and SD of the latent spatial field,outputs/figures/supplementary/Figure_S16_latent_spatial_field_mean_and_sd.png,TRUE,created,643800
+Figure S17,Supplementary,"Model lower, mean and upper PfPR surfaces for 2007",outputs/figures/supplementary/Figure_S17_model_pfpr_lower_mean_upper_2007.png,TRUE,created,1027671
+Figure S18,Supplementary,"Model lower, mean and upper PfPR surfaces for 2011",outputs/figures/supplementary/Figure_S18_model_pfpr_lower_mean_upper_2011.png,TRUE,created,1016518
+Figure S19,Supplementary,"Model lower, mean and upper PfPR surfaces for 2015",outputs/figures/supplementary/Figure_S19_model_pfpr_lower_mean_upper_2015.png,TRUE,created,1013749
+Figure S20,Supplementary,"Model lower, mean and upper PfPR surfaces for 2018",outputs/figures/supplementary/Figure_S20_model_pfpr_lower_mean_upper_2018.png,TRUE,created,1015895
+Figure S21,Supplementary,"Model lower, mean and upper PfPR surfaces for 2022",outputs/figures/supplementary/Figure_S21_model_pfpr_lower_mean_upper_2022.png,TRUE,created,991292
+Figure S22,Supplementary,"Model lower, mean and upper PfPR surfaces for 2023",outputs/figures/supplementary/Figure_S22_model_pfpr_lower_mean_upper_2023.png,TRUE,created,995511
+Figure S23,Supplementary,"Exceedance probabilities at 10%, 20%, 30% and 40%",outputs/figures/supplementary/Figure_S23_exceedance_probabilities_all_years_thresholds.png,TRUE,created,4107653

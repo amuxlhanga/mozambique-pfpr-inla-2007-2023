@@ -1,0 +1,3 @@
+var,WAIC,DIC,n,status,error_message,raw_covariate,base,lag,group,retained_in_manuscript
+z_HSI_lag2,7057.885952331708,6749.3321733831235,2066,ok,NA,HSI_lag2,HSI,2,NA,TRUE
+z_TSI_lag3,7056.050965166586,6746.186288415775,2066,ok,NA,TSI_lag3,TSI,3,NA,TRUE

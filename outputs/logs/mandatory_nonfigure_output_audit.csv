@@ -1,0 +1,11 @@
+file,relative_path,required,exists,bytes,valid_file
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/main/Table_1_fixed_effect_posterior_summaries.csv,outputs/tables/main/Table_1_fixed_effect_posterior_summaries.csv,TRUE,TRUE,883,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/main/Table_2_validation_comparison.csv,outputs/tables/main/Table_2_validation_comparison.csv,TRUE,TRUE,374,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/main/Table_3_decision_summary_pfpr20_p80.csv,outputs/tables/main/Table_3_decision_summary_pfpr20_p80.csv,TRUE,TRUE,627,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/main/District_summary_by_year.csv,outputs/tables/main/District_summary_by_year.csv,TRUE,TRUE,1136,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/main/Key_results_for_manuscript.csv,outputs/tables/main/Key_results_for_manuscript.csv,TRUE,TRUE,8259,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/supplementary/Table_S_final_model_selection_evidence.csv,outputs/tables/supplementary/Table_S_final_model_selection_evidence.csv,TRUE,TRUE,1736,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/tables/supplementary/Table_S_missing_covariate_values.csv,outputs/tables/supplementary/Table_S_missing_covariate_values.csv,TRUE,TRUE,8540,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/district/district_results_all_by_year.csv,outputs/district/district_results_all_by_year.csv,TRUE,TRUE,355311,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/district/district_results_all_by_year.gpkg,outputs/district/district_results_all_by_year.gpkg,TRUE,TRUE,50679808,TRUE
+C:/Users/Muxlhanga/Downloads/Ch2_PfPR_reproducible_full_v1.1.0/Ch2_PfPR_reproducible/outputs/district/district_aggregation_audit.csv,outputs/district/district_aggregation_audit.csv,TRUE,TRUE,371,TRUE

@@ -1,0 +1,7 @@
+year,districts,complete_continuous,complete_decision,continuous_fallbacks,decision_fallbacks,remaining_missing_values,invalid_probability_values,invalid_interval_order,invalid_decision_area_totals
+2007,161,161,161,2,2,0,0,0,0
+2011,161,161,161,2,2,0,0,0,0
+2015,161,161,161,2,2,0,0,0,0
+2018,161,161,161,2,2,0,0,0,0
+2022,161,161,161,2,2,0,0,0,0
+2023,161,161,161,2,2,0,0,0,0

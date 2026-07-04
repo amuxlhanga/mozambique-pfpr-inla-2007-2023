@@ -1,0 +1,20 @@
+covariate,definition,units,type,lags_evaluated,source_class,final_status
+Rainfall (CHIRPS),Monthly rainfall representing creation and persistence of mosquito breeding sites.,mm/month,Dynamic,0–3 months,CHIRPS rainfall surface,"Screened, not retained"
+Enhanced Vegetation Index (EVI),Satellite measure of vegetation greenness and density.,Index,Dynamic,0–3 months,MODIS-derived vegetation surface,Retained (lag 2)
+LST day,Daytime land surface temperature.,Degrees C,Dynamic,0–3 months,MODIS-derived temperature surface,Retained (lag 0)
+LST night,Night-time land surface temperature.,Degrees C,Dynamic,0–3 months,MODIS-derived temperature surface,"Screened, not retained"
+LST delta,Diurnal difference between daytime and night-time land surface temperature.,Degrees C,Dynamic,0–3 months,Derived from LST day and night,"Screened, not retained"
+Tasselled Cap Brightness (TCB),Reflectance-based index of surface brightness and bare or dry land cover.,Index,Dynamic,0–3 months,MODIS-derived reflectance surface,"Screened, not retained"
+Tasselled Cap Wetness (TCW),Reflectance-based index of surface wetness and moisture availability.,Index,Dynamic,0–3 months,MODIS-derived reflectance surface,"Screened, not retained"
+Temperature Suitability Index (TSI),Mechanistic index of thermal suitability for malaria transmission.,Index,Dynamic,0–3 months,Suitability surface,Retained (lag 3)
+Habitat Suitability Index (HSI),Mechanistic index of persistence and suitability of larval habitat.,Index,Dynamic,0–3 months,Suitability surface,Retained (lag 2)
+Potential evapotranspiration (PET),Atmospheric evaporative demand.,mm/month,Static,Not applicable,Climatic PET surface,"Screened, not retained"
+Aridity index,Ratio describing climatic dryness or wetness.,Ratio,Static,Not applicable,Derived climatic surface,Retained
+Night-time lights,Proxy for settlement intensity and human development.,Radiance,Static,Not applicable,VIIRS/stable night-light surface,"Screened, not retained"
+Elevation,Height above sea level.,m,Static,Not applicable,SRTM,"Screened, not retained"
+Slope,Terrain steepness.,Degrees,Static,Not applicable,Derived from SRTM,Retained
+Distance to water,"Distance to the nearest mapped river, lake or water body.",m,Static,Not applicable,Surface-water hydrology layer,Retained
+Topographic Wetness Index (TWI),Terrain-based tendency for local water accumulation.,Index,Static,Not applicable,SRTM/HydroSHEDS-derived,"Screened, not retained"
+Access to cities,Travel-time accessibility to urban centres.,Minutes travel,Static,Not applicable,Accessibility surface,Retained after log1p transformation
+Population density,Number of people per square kilometre.,Persons/km2,Static,Not applicable,WorldPop,"Screened, not retained"
+Access to health facilities,Travel time to the nearest mapped health facility.,Minutes travel,Static,Not applicable,Accessibility surface,"Screened, not retained"
